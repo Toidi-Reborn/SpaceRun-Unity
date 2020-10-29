@@ -11,14 +11,5 @@ public class music : MonoBehaviour {
         DontDestroyOnLoad(this);    
     }
 
-    // Start is called before the first frame update
-    void Start(){
-        Invoke("LoadFirstSceen", 2f);
-        
-    }
 
-    // Update is called once per frame
-    void LoadFirstSceen(){
-        SceneManager.LoadScene(1);
-    }
 }
