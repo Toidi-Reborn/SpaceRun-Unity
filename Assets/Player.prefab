@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3914510485073546663}
   - component: {fileID: 3924792214750110447}
   - component: {fileID: 8517357658410220944}
+  - component: {fileID: -4908598440477736521}
+  - component: {fileID: -7458756938491212180}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -100,3 +102,28 @@ MonoBehaviour:
   controlPitchFactor: -20
   posYawFactor: 5
   controlRollFactor: -20
+--- !u!65 &-4908598440477736521
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3901685577387538401}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0626006, y: 0.96831894, z: 3.306026}
+  m_Center: {x: -0.00000023841858, y: -0.00000025331974, z: -0.000000059604645}
+--- !u!114 &-7458756938491212180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3901685577387538401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d342f98fe21a8a49a3925995d86beec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

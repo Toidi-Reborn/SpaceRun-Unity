@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4830659261180037132}
   - component: {fileID: 7510904715454713772}
   - component: {fileID: 6836867866273815265}
+  - component: {fileID: 7713081336554315543}
+  - component: {fileID: 2133388809}
   m_Layer: 0
   m_Name: Bad Guy
   m_TagString: Untagged
@@ -79,3 +81,31 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7713081336554315543
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440806822439837888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.96973, y: 1.28585, z: 3.424901}
+  m_Center: {x: -0.0000022053719, y: 0.0000005364418, z: -0.000000059604645}
+--- !u!114 &2133388809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440806822439837888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380464d9e7c704949bb16619d6df5fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaddyBoom: {fileID: 6887172114692288550, guid: 729de94128304ca45aee88db11930efb,
+    type: 3}
+  parent: {fileID: 4830659261180037132}
